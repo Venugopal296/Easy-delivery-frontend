@@ -1,0 +1,10 @@
+h6.cg-header-logo {
+	flex-grow: 1;
+	font-weight: 800;
+}
+
+.cg-header-name {
+	padding: 0.5rem;
+	background-color: rgb(147, 147, 224);
+	border-radius: 50%;
+}

@@ -1,0 +1,5 @@
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const CREATE_PICKUP = 'CREATE_PICKUP';
+export const FETCH_USER_ORDERS = 'FETCH_USER_ORDERS';
+export const FETCH_PICKER_ORDERS = 'FETCH_PICKER_ORDERS';

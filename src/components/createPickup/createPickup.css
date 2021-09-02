@@ -1,0 +1,31 @@
+.cg-pickup-box {
+  width: 100%;
+}
+
+.cg-pickup-paper {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cg-pickup-paper > .cg-pickup-formcontrol {
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .cg-pickup-box {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    width: 60%;
+  }
+  
+  .cg-pickup-paper {
+    padding: 1rem;
+    flex-direction: row;
+  }
+  
+  .cg-pickup-paper > .cg-pickup-formcontrol {
+    margin: 0 1rem;
+  }
+}
